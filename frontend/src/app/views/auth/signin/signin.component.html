@@ -1,1 +1,25 @@
-<p>signin works!</p>
+<div class="d-flex flex-column justify-content-center align-items-center">
+    <h1>Signin</h1>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        [(ngModel)]="email"
+        
+      />
+    </div>
+  
+    <div class="mb-3">
+      <label for="passowrd" class="form-label">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        id="passowrd"
+        [(ngModel)]="password"
+      />
+    </div>
+  
+    <button class="btn btn-primary" (click)="submit()">Signin</button>
+  </div>

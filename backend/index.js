@@ -14,6 +14,10 @@ app.use(express.json());
 
 app.use(express.urlencoded({extended:false}));
 
+const cors = require('cors'); 
+
+app.use(cors());
+
 // get users routes
 const usersRoutes = require('./routes/users');
 

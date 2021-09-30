@@ -10,11 +10,11 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: '/users/auth/sigin',
+    path: 'users/auth/sigin',
     component: SigninComponent
   },
   {
-    path: '/users/auth/sigup',
+    path: 'users/auth/sigup',
     component: SignupComponent
   }
 ];
